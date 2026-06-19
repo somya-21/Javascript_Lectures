@@ -18,12 +18,23 @@ if(req.url==="/")
 }
 
 
-else if(req.url.toLowerCase()==='/products' && req.method=="post")
+else if(req.url.toLowerCase()==='/products' && req.method=="POST")//capital
 {
-res.setHeader('Content-Type','text/html')
-res.write('<h1>your data saved</h1>')
+    // not done
+// res.setHeader('Content-Type','text/html')
+// res.write('<h1>your data saved</h1>')
 fs.writeFileSync('submit_records.txt',"data")
-res.statusCode(302);
+res.statusCode=302;
+   res.setHeader('Location', "/contact" )
+return res.end()
+}
+
+else if(req.url.toLowerCase()==='/contact' && req.method=="GET")//capital
+{
+    
+res.setHeader('Content-Type','text/html')
+res.write('<h1>your data savsed</h1>')
+
 return res.end()
 }
 }
