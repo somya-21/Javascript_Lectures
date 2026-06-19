@@ -1,1 +1,1 @@
-# Javascript_Lectures
+#web_development_learning_series
