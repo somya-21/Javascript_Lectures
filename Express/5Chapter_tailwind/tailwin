@@ -1,0 +1,8 @@
+1 tailwind css intelligence
+2npm install -D tailwindcss@3 postcss autoprefixer
+npx tailwindcss init -p
+chnage content
+views/inpus.css
+public me link bnaya output ke leye khud bnn jaege
+ npx tailwindcss -i ./views/input.css -o ./public/output.css --watch
+ 
