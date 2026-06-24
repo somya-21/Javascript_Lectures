@@ -1,0 +1,28 @@
+<%- include('partials/head')%>
+    <link rel="stylesheet" href="./home.css">
+</link>
+
+</head>
+<body>
+    <header>
+    <h1>Welcome to Airnb</h1>
+
+    </header>
+
+    
+    <main>
+  <a href="/host/addhome" >Add </a>
+      </main>
+
+    <h1>Here are our Homes</h1>
+    <ul>
+        <% registerHomes.forEach(home=>
+        {%>
+<li><%=home.homeAdress%>
+</li>
+        <%})%>
+    </ul>
+
+  
+</body>
+</html>

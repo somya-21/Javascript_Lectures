@@ -1,0 +1,19 @@
+MVC==
+software architecture pattern for deveoping user interface
+
+model==mangge the data and business logic (data,interect with databases )
+define 4 filed location.name.address
+
+view==handle the display and presentation of data
+how to reprenet data
+
+controoler
+process user input ,intrecat with model and updates the view
+routes
+
+sepeate clear responsibity a
+
+npminit
+npm i nodemon express
+.gitignore==node_modules/
+change scripts
